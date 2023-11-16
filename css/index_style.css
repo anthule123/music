@@ -23,7 +23,7 @@ html, body {
     background-size: cover;
     background-blend-mode: multiply;
     padding-bottom: 0px;
-    height: 30vh;
+    height: 200px;
 }
 .main-nav{
     text-align: center;
