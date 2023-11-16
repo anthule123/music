@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@font-face {
+   font-family: 'BOOTERFF';
+    src: url('../fonts/booter-zero-zero/BOOTERFF.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    box-sizing: border-box; 
+    font-family:Raleway;
+    color: #333;
+}
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+.main-header{
+    background-color: #f1f1f1;
+    
+    background-image: url('../images/header-background.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 0px;
+    height: 30vh;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid #333;
+}
+.main-nav li{
+    padding: 0 5%;
+}
+.nav ul{
+    margin:0
+}
+.nav li{
+    display: inline-block;
+    padding: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: 600;
+    padding: 0.5em;
+}
+.nav a:hover{
+    background-color: #333;
+}
+
+.an-name{
+    text-align: center;
+    margin:0;
+    font-size: 4em;
+    font-family: 'BOOTERFF';
+    font-weight: lighter;
+}
+.an-name-large{
+    font-size: 8em;
+    color: wheat;
+}
+.content-section{
+    margin:1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-family:'Metal Mania';
+}
+
+
+.artist-item{
+    margin:30px;
+}
+.artist-item-title{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin:0;
+    text-align: center;
+}
+.artist-item-image{
+    height: 250px;
+}
+.artist-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.artist-item:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+/* Hiển thị gradient background khi hover vào item */
+.artist-item:hover::before {
+    opacity: 1; /* Hiển thị gradient background */
+}
+
+/* Ẩn thông tin item ban đầu */
+.artist-item-info {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7); /* Màu nền đục */
+    color: white;
+    padding: 10px;
+}
+
+/* Hiển thị thông tin khi hover vào item */
+.artist-item:hover .item-info {
+    display: block;
+}
