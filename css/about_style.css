@@ -1,0 +1,36 @@
+
+
+.about-image{
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:15px;
+    border-radius: 5%;
+}
+.illustration-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.illustration-image{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 1em;
+    width:80%;
+}
+.illustration-image-container{
+    background-color: wheat;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5%;
+    float: right;
+    width: 40%;
+}
+.illustration-image-caption{
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+}
